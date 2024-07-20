@@ -1,4 +1,3 @@
-
 <body class="bodyregistrarse">
     <div class="container mt-5 mb-5 d-flex justify-content-center">
         <?php $validation = \Config\Services::validation(); ?>
@@ -78,3 +77,4 @@
     <script src="<?= base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>
 </body>
 </html>
+

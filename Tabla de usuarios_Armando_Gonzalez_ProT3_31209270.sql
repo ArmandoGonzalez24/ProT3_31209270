@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 19-07-2024 a las 19:37:07
+-- Tiempo de generación: 21-07-2024 a las 00:37:53
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.1.25
 
@@ -66,7 +66,8 @@ CREATE TABLE `usuarios` (
 INSERT INTO `usuarios` (`id_usuario`, `nombre`, `apellido`, `usuario`, `email`, `pass`, `perfil_id`, `baja`) VALUES
 (1, 'maria', 'gomez', 'maria', 'maria@gmail.com', '$2y$10$cTi.jwBAa4ty9XJmA2UXOeOedkYEfTNDFh7.YLKPAqs.wAWgxsJgy', 2, 'NO'),
 (2, 'pedro', 'gomez', 'pedro', 'pedro@gmail.com', '$2y$10$zDhSUS//qPs1sL2yohFt2OPlIF8g9Bgy8YQ/70hYUYXBiPc.shY.S', 2, 'NO'),
-(3, 'armando', 'gonzalez', 'armando', 'armando@gmail.com', '$2y$10$wklj8rEbkCXPRexOJMFinue5wDZ4SdSm86C/2j213hYeEDX2CijQ.', 1, 'NO');
+(5, 'armando', 'gonzalez', 'armando', 'armando@gmail.com', '$2y$10$inOZaKDhRvzz4GIkW9wjouFbaW93MpNXIjESRR2vi5NI2.OVRTHvi', 1, 'NO'),
+(6, 'ciro', 'martinez', 'ciro', 'ciro@gmail.com', '$2y$10$9/niizi7ty.aDSCRVTgBLOPUL3owG5zOA4JTkouL0QAoUt65uBKHW', 2, 'NO');
 
 --
 -- Índices para tablas volcadas
@@ -99,7 +100,7 @@ ALTER TABLE `perfiles`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- Restricciones para tablas volcadas
